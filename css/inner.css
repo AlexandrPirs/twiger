@@ -131,26 +131,41 @@ header {
 	height: 100%;
 	width: 100%;
 }
+.header-form ul.tagit {
+  padding: 10px 20px;
+}
 .header-form ul .tagit-choice {
 	background: #2cd6bc;
 	border-radius: 3px;
+	border: none;
+	height: 40px;
+
+}
+.header-form ul.tagit li.tagit-choice-editable {
+	padding: 0;
 }
 .header-form ul .tagit-label {
 	font-size: 12px;
 	font-weight: normal;
 	font-style: normal;
 	color: #fff;
-	line-height: 28px;
-	padding-right: 24px;
+	padding-right: 42px;
+	padding-left: 11px;
+	line-height: 40px;
 }
 .header-form ul .ui-icon {
 	background-image: url("../img/close.png");
 	width: 20px;
 	height: 14px;
-	margin-right: 10px;
 }
 .header-form ul .ui-icon-close {
 	background-position: center right;
+	padding: 0;
+	margin: 0;
+
+}
+.header-form ul.tagit li.tagit-choice .tagit-close {
+	padding-right: 10px;
 }
 .header-form .m-rows {
 	position: relative;
@@ -283,7 +298,7 @@ header {
 	font-style: normal;
 	color: #949494;
 	text-align: center;
-	line-height: 0px;
+	line-height: 40px;
 	margin-left: 25px;
 }
 .header-form .m-rows-2 input:focus::-webkit-input-placeholder {
@@ -321,7 +336,7 @@ header {
 	font-style: normal;
 	color: #949494;
 	text-align: center;
-	line-height: 0px;
+	line-height: 40px;
 	margin-left: 25px;
 }
 .header-form .m-rows-3 input:focus::-webkit-input-placeholder {
@@ -509,7 +524,8 @@ display: block;
 	margin-top: 40px;
 	width: 183px;
 	height: 46px;
-	border: 2px solid #462b6a;
+	border: 1px solid #462b6a;
+	border-radius: 3px;
 	text-align: center;
 	font-size: 13px;
 	line-height: 44px;
@@ -544,11 +560,12 @@ footer .footer-logo {
 }
 footer .footer-logo img {
 	margin-left: -20px;
+	margin-top: -5px;
 }
 footer .footer-logo p {
 	margin: 0;
 	padding: 0;
-	margin-top: 45px;
+	margin-top: 40px;
 	font-family: "HelveticaNeueCyr-Light";
 	font-size: 12px;
 	font-weight: normal;
@@ -560,7 +577,7 @@ footer .footer-nav {
 	position: relative;
 	padding-left: 45px;
 	display: block;
-	margin-top: 20px;
+	margin-top: 15px;
 	background-image: url("../img/footer-line.png");
 	background-repeat: no-repeat;
 	background-position: center right;
